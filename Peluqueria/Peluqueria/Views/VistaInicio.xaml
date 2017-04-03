@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Peluqueria.Views.VistaInicio"
+             Title="Peluquería">
+    <StackLayout Orientation="Vertical" Spacing="5">
+        <Label Text="Inicio de Sesión" FontSize="Medium" TextColor="Orange" XAlign="Center"/>
+        
+        <Entry x:Name="cmpoUsuario" Placeholder="Email"/>
+        <Entry x:Name="cmpoPass" Placeholder="Contrasela"/>
+    </StackLayout>
+</ContentPage>
